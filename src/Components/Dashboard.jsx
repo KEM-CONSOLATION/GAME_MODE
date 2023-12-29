@@ -14,7 +14,7 @@ const Dashboard = () => {
   ];
 
   return (
-    <div>
+    <div className=" overflow-hidden">
       <div className="h-full flex-1 flex">
         <div className=" p-10 md:p-20 text-white">
           <p className="text-[16px]  font-[400] ">Hey User!</p>
