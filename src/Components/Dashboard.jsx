@@ -1,4 +1,3 @@
-import React from "react";
 import Single from "../assets/Single.png";
 import Challenge from "../assets/Challenge.png";
 import MultiPlayer from "../assets/MultiPlay.png";
