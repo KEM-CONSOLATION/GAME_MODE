@@ -1,6 +1,6 @@
 import Single from "../assets/Single.png";
 import Challenge from "../assets/Challenge.png";
-import MultiPlayer from "../assets/MultiPlay.png";
+import MultiPlayer from "../assets/Multiplay.png";
 import Dot from "../assets/Dot.png";
 import Soccer from "../assets/Soccer.png";
 import Man from "../assets/Man.png";

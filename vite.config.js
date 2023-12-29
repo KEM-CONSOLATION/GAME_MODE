@@ -5,7 +5,6 @@ export default defineConfig({
   plugins: [react()],
 
   build: {
-    // ... other build configurations
     assetsInlineLimit: 0,
   },
 });
