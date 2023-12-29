@@ -15,13 +15,13 @@ const Dashboard = () => {
 
   return (
     <div>
-      <div className="h-full flex-1  ">
+      <div className="h-full flex-1 flex">
         <div className=" p-10 md:p-20 text-white">
           <p className="text-[16px]  font-[400] ">Hey User!</p>
           <p className=" text-[18px]  font-[400] pt-10">CHOOSE PLAY MODE</p>
 
-          <div className=" grid md:flex items-start h-full  gap-10 my-10 ">
-            <div className=" grid gap-5 md:w-[592px] w-full">
+          <div className=" grid md:flex items-start h-fit  gap-10 my-10 ">
+            <div className=" grid gap-5 md:w-full lg:max-w-[392px]">
               {data.map((item, index) => (
                 <Card key={index} imageUrl={item.imageUrl} text={item.text} />
               ))}
@@ -45,7 +45,7 @@ const Dashboard = () => {
               </div>
             </div>
 
-            <div className=" md:w-[482px] w-full h-full bg-secondary border-2 border-border p-2 pb-28 rounded-lg">
+            <div className=" md:max-w-[482px] w-full h-full bg-secondary border-2 border-border p-2 pb-24 rounded-lg">
               <div className=" flex flex-col items-center justify-center gap-5 pt-5">
                 <p className=" font-[400] text-[16px] text-TextPrimary">
                   HOW TO PLAY

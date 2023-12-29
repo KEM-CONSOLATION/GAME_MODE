@@ -19,7 +19,7 @@ const SIdeBar = () => {
     <div>
       <div
         className={` ${
-          open ? "w-72" : "w-20 "
+          open ? "w-full" : "w-20 "
         }  h-full p-5  pt-8 relative duration-300 border-r`}
       >
         <img

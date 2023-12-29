@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div className="flex bg-[#060D1F] ">
       <SIdeBar />
+
       <Dashboard />
     </div>
   );
